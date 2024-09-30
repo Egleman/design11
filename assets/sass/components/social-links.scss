@@ -1,0 +1,37 @@
+.design11 {
+    .social-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30.5px;
+        gap: 20px;
+        @include media('sm') {
+            gap: 10px;
+        }
+        .share, .copy {
+            font-family: var(--four-family);
+            font-weight: 500;
+            font-size: 12px;
+            //line-height: 32px;
+            letter-spacing: 0.2em;
+            color: #7c7c7c;
+            display: inline-flex;
+            padding-top: 7px;
+        }
+        .copy {
+            font-weight: 300;
+        }
+        .links {
+            display: flex;
+            gap: 16px;
+            list-style-type: none;
+            
+        }
+        &__link {
+            width: 28px;
+            height: 28px;
+            display: flex;
+            flex-shrink: 0;
+        }
+    }
+}

@@ -1,0 +1,54 @@
+.design11 {
+  .module-words {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    &__grid {
+      display: grid;
+      grid-template-columns: repeat(13, 1fr);
+      gap: 5px;
+      @include media('md') {
+        display: flex;
+        flex-wrap: wrap;
+      }
+    }
+    &__letter {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #b5d7f7;
+      width: 49px;
+      height: 49px;
+      flex-shrink: 0;
+      font-family: var(--font-family);
+      font-weight: 400;
+      font-size: 24px;
+      color: #fff;
+      transition: .3s all;
+      cursor: pointer;
+      @media (hover: hover) {
+        &:hover {
+          background: #51abff;
+        }
+      }
+      @media (hover: none) {
+        &:active {
+          background: #51abff;
+        }
+      }
+    }
+    &__letter.active {
+      background: #51abff;
+    }
+    &__result {
+      align-self: flex-end;
+      font-family: var(--font-family);
+      font-weight: 400;
+      font-size: 15px;
+      color: #bdbdbd;
+    }
+    &_letters {
+      padding: 39px 0 31px 0;
+    }
+  }
+}

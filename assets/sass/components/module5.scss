@@ -1,0 +1,30 @@
+.design11 {
+  .module5 {
+    padding-bottom: 21px;
+    &__title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      margin-bottom: 47px;
+      @include media('sm') {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+      }
+    }
+    &__buttons {
+      display: flex;
+      gap: 5px;
+    }
+    &__button {
+      background: #59a9f3;
+      width: 88px;
+      height: 33px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+      border: none;
+    }
+  }
+}

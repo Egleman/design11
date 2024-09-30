@@ -1,0 +1,17 @@
+.design11 {
+  .module2 {
+    padding-bottom: 33px;
+    &__text {
+      font-family: var(--second-family);
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 145%;
+      letter-spacing: -0.02em;
+      color: #505050;
+      span {
+        text-decoration: underline;
+        text-decoration-skip-ink: none;
+      }
+    }
+  }
+}

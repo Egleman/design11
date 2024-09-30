@@ -1,0 +1,36 @@
+.design11
+  .header
+    display: flex
+    align-items: center
+    justify-content: space-between
+    gap: 20px
+    padding: 12px 25px 12px 16px
+    background: #59a9f3
+    height: 50px
+    box-sizing: border-box
+    @include media('sm')
+      padding: 12px
+      gap: 10px
+    &__logo
+      font-family: var(--font-family)
+      font-weight: 400
+      font-size: 20px
+      color: #fff
+      span
+        color: #b3dbff
+      @include media('sm')
+        font-size: 16px
+    &__list
+      list-style-type: none
+      display: flex
+      gap: 30px
+      @include media('sm')
+        gap: 10px
+      &-link
+        font-family: var(--second-family)
+        font-weight: 600
+        font-size: 20px
+        letter-spacing: -0.02em
+        color: #fff
+        @include media('sm')
+          font-size: 16px

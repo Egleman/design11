@@ -1,0 +1,15 @@
+.design11 {
+    .module-title {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 167%;
+        color: #505050;
+        span {
+            color: #bdbdbd;
+        }
+        @include media('sm') {
+            font-size: 24px;
+        }
+    }
+}
