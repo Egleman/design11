@@ -11,5 +11,19 @@
         @include media('sm') {
             font-size: 24px;
         }
+        pre {
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 167%;
+            color: #505050;
+            margin:  0;
+            span {
+                color: #bdbdbd;
+            }
+            @include media('sm') {
+                font-size: 24px;
+            }
+        }
     }
 }
