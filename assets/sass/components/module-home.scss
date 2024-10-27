@@ -47,6 +47,9 @@
                     letter-spacing: 1.9px;
                     color: #a2a2a2;
                 }
+                &_synonym {
+                    padding: 0 60px 0 14px;
+                }
             }
             &-btn {
                 display: flex;
@@ -72,7 +75,7 @@
         }
         &_synonym {
             .module-home__form {
-                margin-bottom: 45px;
+                margin-bottom: 44px;
             }
             .social-links {
                 margin-bottom: 0;

@@ -49,6 +49,11 @@
     }
     &_letters {
       padding: 39px 0 31px 0;
+      gap: 9px;
+      .module-words__result {
+        display: inline-flex;
+        padding-right: 3px;
+      }
     }
   }
 }

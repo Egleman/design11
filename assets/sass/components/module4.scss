@@ -4,8 +4,8 @@
     border-bottom: 1px solid #cecece;
     &__wrapper {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 20px;
+      grid-template-columns: 48.5% 51.5%;
+      gap: 0;
       @include media('sm') {
         grid-template-columns: 1fr;
       }
@@ -26,6 +26,13 @@
       font-size: 20px;
       letter-spacing: -0.02em;
       color: #6a6a6a;
+      line-height: normal;
+    }
+    &_middle {
+      padding-top: 22px;
+    }
+    &_bottom {
+      padding-top: 24px;
     }
   }
   .module4.last {
